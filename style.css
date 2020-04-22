@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo Paaji 2', cursive;
+}
+header{
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.get-user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#get-username{
+    border: none;
+    padding: 10px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+}
+.get-user button{
+    border: none;
+    padding:10px;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.profile-cont img{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+.follow-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.follow-box > div{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.1) ;
+    margin: 5px;
+}
+.follow-box div h5{
+    font-size: 25px;
+}
+#error{
+    color: rgb(255, 65, 44);
+    font-size: 40px;
+    font-weight: 600;
+}

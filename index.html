@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Follower Count</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>IG info</h1>
+        <p>Get IG Info and Live Follower Count</p>
+    </header>
+    <div class="get-user">
+        <input type="text" placeholder="Username (Without @)" id="get-username">
+        <button type="submit" onclick="get()">Get</button>
+    </div>
+    
+    <main>
+        <div id="error">
+        </div>
+        <div class="profile-cont">
+            <img id="profile-img" src="https://raw.githubusercontent.com/PiyushSuthar/piyushsuthar.github.io/master/author.JPG" alt="Piyush Suthar">
+            <div class="profile-info">
+                <h3 id="name">Piyush Suthar</h3>
+                <span id="username">@PiyushSthr</span>
+                <p id="bio">I'm Piyush Suthar, a web designer and a developer. I love playing with codes all the time. I'm in love with Javascript.</p>
+                <a id="bio-link" href="https://blogging.recipes">https://blogging.recipes</a>
+            </div>
+        </div>
+        <div class="follow-box">
+            <div class="followers">
+                <span>Followers</span>
+                <h5 id="followers">0</h5>
+            </div>
+            <div class="following">
+                <span>Following</span>
+                <h5 id="following">0</h5>
+            </div>
+        </div>
+    </main>
+    <script defer src="app.js"></script>
+</body>
+</html>
